@@ -1,0 +1,19 @@
+[book]
+authors = ["Your Name"]
+language = "Fa"
+multilingual = false
+src = "src"
+title = "Book Template"
+text-direction = "rtl"
+
+[preprocessor]
+
+[preprocessor.catppuccin]
+assets_version = "2.1.0" # DO NOT EDIT: Managed by `mdbook-catppuccin install`
+
+[output]
+
+[output.html]
+additional-css = ["./theme/catppuccin.css", "./theme/fonts.css", "./theme/catppuccin-admonish.css"]
+
+
